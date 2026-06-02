@@ -1,16 +1,127 @@
-# React + Vite
+# Responsive E-Commerce Product Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Assignment 2
 
-Currently, two official plugins are available:
+### Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project is a responsive E-Commerce Product Page built using React and CSS Modules. The application displays product details, image gallery, size selection, color selection, quantity management, customer reviews, and related products.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+* Responsive Design
+* Product Image Gallery
+* Product Information Section
+* Size Selection
+* Color Selection
+* Quantity Selector
+* Add to Cart Button
+* Customer Reviews
+* Related Products Section
+* Mobile Friendly Layout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Technologies Used
+
+* React JS
+* JavaScript
+* CSS Modules
+* Vite
+* HTML5
+* CSS3
+
+---
+
+## Components
+
+### ProductGallery
+
+Displays the main product image and image thumbnails.
+
+### ProductInfo
+
+Displays product title, price, rating, description, and specifications.
+
+### SizeSelector
+
+Allows users to select product size.
+
+### ColorSelector
+
+Allows users to select product color.
+
+### QuantitySelector
+
+Allows users to increase or decrease quantity.
+
+### ProductCard
+
+Reusable card component for related products.
+
+### Reviews
+
+Displays customer reviews.
+
+### RelatedProducts
+
+Displays similar products.
+
+---
+
+## Folder Structure
+
+src
+│
+├── assets
+├── components
+│ ├── ProductGallery
+│ ├── ProductInfo
+│ ├── SizeSelector
+│ ├── ColorSelector
+│ ├── QuantitySelector
+│ ├── ProductCard
+│ ├── Reviews
+│ └── RelatedProducts
+│
+├── data
+│ └── productData.js
+│
+├── pages
+│ └── ProductPage.jsx
+│
+├── App.jsx
+├── App.css
+└── main.jsx
+
+---
+
+## Installation
+
+npm install
+
+npm run dev
+
+---
+
+## Output
+
+(Add screenshots here)
+
+---
+
+## Learning Outcomes
+
+* React component architecture
+* Props and state management
+* Responsive layouts
+* CSS Modules
+* Reusable components
+* Modern UI design
+
+---
+
+## Conclusion
+
+Successfully developed a responsive E-Commerce Product Page using React and CSS Modules with reusable and scalable component architecture.
